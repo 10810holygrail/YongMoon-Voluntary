@@ -60,11 +60,18 @@
 
           function sumAll(n) {
             // 1부터 n까지 수를 모두 더하는 함수를 구현하세요!
+            var sum = 0;
+            for(var i=1;i<=n;i++){
+              sum= sum + i;
+            }
+            return(sum);
+            
             
             
           }
 
           // submit 버튼을 누르면 실행될 함수에요.
+          
           function submit() {
             // 입력창에 있는 값을 n에 저장해요.
             let n = parseInt(input.value);
